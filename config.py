@@ -38,7 +38,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>This App Is Developed By TRVPN Teams.Some Customization Has Done ✅</b>",
+    "<b>Hello {first}\n\n User Need To Subcribe Our Channel And Group .\n\n 🔗Join Our Channel : @TamilBlasters_Win \n\n 📭Discussion Group📬 : @MoviezzGroup\n First Subcribe Both Channel And Group .'.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -48,7 +48,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nSubcribe To Our Channel & Group Then Only U Can Use Me </b>",
+    "<b>Hello {first}\n\n User Need To Subcribe Our Channel And Group .\n\n 🔗Join Our Channel : @TamilBlasters_Win \n\n 📭Discussion Group📬 : @MoviezzGroup\n First Subcribe Both Channel And Group .'.</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
